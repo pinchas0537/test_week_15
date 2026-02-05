@@ -32,7 +32,7 @@ roll.addEventListener("click", (event) => {
             player = player2
             document.querySelector("#p1").textContent = player.currentScore
             document.getElementById("player2").style.color = "red"
-            document.getElementById("player2").style.color = "black"
+            document.getElementById("player1").style.color = "black"
         }
         else {
             player = player1
