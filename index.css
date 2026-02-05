@@ -1,0 +1,46 @@
+.header{
+    position: absolute;
+    left: 300px;
+    font-size: 35px;
+}
+h2{
+    display: inline-block;
+    padding-top: 80px;
+}
+
+#player2{
+    padding-left: 500px;
+}
+#player1{
+    position: absolute;
+}
+p{
+    display: inline-block;
+}
+.total{
+    position: absolute;
+    top: 150px;
+    font-size: 30px;
+}
+.current{
+    position: absolute;
+    top: 600px;
+    font-size: 25px;
+}
+button{
+    position: absolute;
+    top: 550px;
+    left: 400px;
+}
+#roll{
+    top:500px;
+}
+.dice{
+    position: relative;
+    top: 180px;
+    left: 350px;
+    font-size: 30px;
+}
+.se{
+    background-image: url("https://publicdomainvectors.org/photos/winners-cups.jpg");
+}

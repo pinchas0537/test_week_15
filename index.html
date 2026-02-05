@@ -2,10 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <header class="header">The max score is :</header>
+    <main>
+        <div>
+            <h2 id="player1">player1</h2>
+            <p class="total" id="tp1">0</p>
+            <p class="current">Current Score : <span id="p1">0</span> </p>
+        </div>
+        <div>
+            <h2 id="player2">player2</h2>
+            <p class="total" id="tp2">0</p>
+            <p class="current">Current Score : <span id="p2">0</span></p>
+        </div>
+        <div class="dice">
+            <p id="dice1">dice1 :<p id="d1"></p> </p><br>
+            <p id="dice2">dice2 :<p id="d2"></p> </p>
+        </div>
+        <button id="hold" class="button" type="button">hold</button>
+        <button class="button" id="roll" type="button">roll dice</button>
+        <div id="sucre"></div>
+    </main>
     
 </body>
 </html>
