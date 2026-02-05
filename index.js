@@ -32,13 +32,13 @@ roll.addEventListener("click", (event) => {
             player = player2
             document.querySelector("#p1").textContent = player.currentScore
             document.getElementById("player2").style.color = "red"
-            document.getElementById("player2").style.color = "blak"
+            document.getElementById("player2").style.color = "black"
         }
         else {
             player = player1
             document.querySelector("#p2").textContent = player.currentScore
             document.getElementById("player1").style.color = "red"
-            document.getElementById("player2").style.color = "blak"
+            document.getElementById("player2").style.color = "black"
         }
     }
     else {
@@ -53,7 +53,7 @@ roll.addEventListener("click", (event) => {
             document.querySelector("#p2").textContent = player.currentScore
         }
     }
-     if (player.totel <= score) {
+    if (player.totel <= score) {
         const sucre = document.getElementById("sucre")
         sucre.classList.add("se")
     }
@@ -63,12 +63,16 @@ const hold = document.getElementById("hold")
 hold.addEventListener("click", (ev) => {
     const totel = player.totel += player.currentScore
     if (player === player1) {
+        document.getElementById("player1").style.color = "black"
+        document.getElementById("player2").style.color = "red"
         document.querySelector("#tp1").textContent = player.totel
         player.currentScore = 0
         document.querySelector("#p1").textContent = player.currentScore
         player = player2
     }
     else {
+        document.getElementById("player2").style.color = "black"
+        document.getElementById("player1").style.color = "red"
         document.querySelector("#tp2").textContent = player.totel
         player.currentScore = 0
         document.querySelector("#p2").textContent = player.currentScore
